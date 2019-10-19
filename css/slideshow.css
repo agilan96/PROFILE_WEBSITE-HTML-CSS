@@ -1,0 +1,35 @@
+
+
+#slideshow{
+  width:30em;
+  height:30em;
+  position: relative;
+  margin: auto;
+  top: 10em;
+}
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+@keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+img{
+  width:15em;
+  height:15em;
+  
+}
+
+h1{
+  text-align: center;
+  position: relative;
+}
